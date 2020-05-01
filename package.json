@@ -1,0 +1,61 @@
+{
+  "name": "fe-js-01-02-r",
+  "version": "1.0.0",
+  "description": "Moduł JavaScript - Lekcja 1, zadanie 2 poziom rozszerzony",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.portal.futurecollars.com/root/fe-js-01-02-r.git"
+  },
+  "author": "Paweł Ochota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.portal.futurecollars.com/root/fe-js-01-02-r/issues"
+  },
+  "homepage": "https://gitlab.portal.futurecollars.com/root/fe-js-01-02-r#readme",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "differencify": "^1.5.4",
+    "html-loader": "^0.5.5",
+    "install": "^0.13.0",
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0",
+    "jest-puppeteer": "^4.4.0",
+    "jest-watch-master": "^1.0.0",
+    "live-server": "^1.2.1",
+    "npm": "^6.13.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "concurrently \"jest --watchAll\" \"live-server\""
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "html",
+      "css",
+      "scss"
+    ],
+    "collectCoverageFrom": [
+      "./**/*.{js,html,css,scss}"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "watchPlugins": [
+      "jest-watch-master"
+    ],
+    "preset": "jest-puppeteer"
+  },
+  "jest-junit": {
+    "outputDirectory": ".futurecollars",
+    "outputName": "test-results.xml",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#b3de45",
+    "statusBar.foreground": "#656263",
+    "activityBar.background": "#1969b0",
+    "activityBar.foreground": "#ffffff"
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true
+  }
+}
