@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" time="9.917">
+  <testsuite name="Plik index.html" errors="0" failures="0" skipped="0" timestamp="2021-04-12T19:36:03" time="9.718" tests="3">
+    <testcase classname="Plik index.html" name="powinien zawierać dwa tagi &lt;script&gt;" time="0.005">
+    </testcase>
+    <testcase classname="Plik index.html" name="powinien zawierać pierwszy tag &lt;script&gt; na końcu sekcji &lt;head&gt;" time="0.002">
+    </testcase>
+    <testcase classname="Plik index.html" name="powinien zawierać drugi tag &lt;script&gt; na końcu sekcji &lt;body&gt; z identyfikatorem &quot;test-script&quot; i źródłem ustawionym na index.js" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
